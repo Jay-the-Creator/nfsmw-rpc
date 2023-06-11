@@ -59,10 +59,10 @@ static void format_details (char* details, char length) {
     switch (c_mode) {
       case 1:
         if (in_pursuit) { //* - SC: priority is as follows: in_pursuit -> in_safehouse -> in_race -> freeroam
-          if (heat > 0 && heat <= 10) {sprintf_s(details, length, "IN PURSUIT! - Heat %d", heat);}
+          if (heat > 0 && heat <= 10) {sprintf_s(details, length, "Pursuit - Heat %d", heat);} //SC: calm down there man
           else {sprintf_s(details, length, "Career - In Safe House");} //! - SC: we've likely ran into an error with these memory addresses, but not fatal -- default to Career - In Safe House
         } else if (in_safehouse) {sprintf_s(details, length, "Career - In Safe House");
-        } else if (in_race) {sprintf_s(details, length, "Career - In A Race");}
+        } else if (in_race) {sprintf_s(details, length, "Career - In A Race");} //todo - SC: race stats
         else {sprintf_s(details, length, "Career - Free Roaming");}
         break;
       case 2:

@@ -9,6 +9,7 @@ todo:
 */
 
 namespace utils {
+  //! - SC: C_CAR_PTR is outdated, todo: change to *live* car!!! use below as fallback
   const int*  const C_CAR_PTR     = (int*)  0x009BA088; //* - SC: CURRENT CAR POINTER
   const int*  const CARS_ADDR_PTR = (int*)  0x009B09D8; //* - SC: CARS ADDRESSES POINTER
   const int*  const OPT_ADDR_PTR  = (int*)  0x0091CF90; //* - SC: OPTIONS ADDRESSES POINTER

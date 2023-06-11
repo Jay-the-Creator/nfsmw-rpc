@@ -1,4 +1,4 @@
-# NFSMW-RPC <sub>~~(i'm not the original creator but i am in touch with the person who made it so yeah)~~</sub>
+# NFSMW-RPC
 A mod that adds Discord Rich Presence integration to Need for Speed: Most Wanted (2005).  
 
 <img src="assets/presence-old.png">
